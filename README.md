@@ -49,6 +49,6 @@ print(len(verses))
 
 ## TODO (Help is welcome)
 
-* Support the other 4 volumes of scriptures (right now only the Book of Mormon may be loaded)
+* Support the other 4 standard volumes of scripture (right now only the Book of Mormon may be loaded)
 * Provide better documentation
 
