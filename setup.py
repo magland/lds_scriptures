@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="lds_scriptures",
-    version="0.1.0",
+    version="0.1.1",
     author="Jeremy Magland",
     author_email="jeremy.magland@gmail.com",
     description="LDS Scripture Data",
