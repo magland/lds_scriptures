@@ -1,0 +1,15 @@
+language: python
+os:
+- linux
+python:
+- '3.6'
+install:
+- pip install .
+script: exit 0
+deploy:
+  provider: pypi
+  user: magland
+  on:
+    tags: true
+  password:
+    secure: C9cC2YinQ7s3ZgYqkj/IoqyMsHCFUtBw/422bU3XEUPpXWrx1vlc1O3/QVuxYelc4BBF/AfnfFL7QE/yzjvJS7rF4H2Q9fBgZFETEKoQ5DAX0mX4RXIba9a1ozg4x9LWX5xrZljaI3ZQlKX1DQ4xfu6B/9QmXD7a5svtad7zMVgyDmsE0P0j2G6K5FWZnm0B2WKgLS/SD71PGX+BtSUjvaIm7gTjYHkwPcOJEdsWC2JHSCYxLSaD7bkT2HnG0j8koHvJ03HBRIFxnZ9hQAu2vRDq/noJXcj3eENDKI/oZl4bNHyLZonbiRkLrYV0OHtogffsGdKIYhDvU0KvTaG78bLkixa+Gx+nsjMbZ0aDwVXS6KEo+Wqv92u4UGyACjyUfUzvXLQX7tloUOprfej9Tdcpr5r896MTb/RGj6lr80pUaf3s6QyZ8xX9eAsgZXvgCi+6v70MbxX5YXOw7pUdvW7OVYaDDKw5NNCKOnGCta9ODk/8JoIchRPCBnGGVsmor4/aff4W/wh6VLaZX1wszz9J8DxQLM5whPOQvaX2ALguk2XG05fqj00qywqWqUOY71hZohIJLioy2xvjKtR/6O8bwPPzesxWYxR2QpocdkeFqnVFgJ+NxMCLRhTL9qV29xXoTHcfTrUGpIGEYvun4chS6gAnXVcT1Z15Ey0A92A=
